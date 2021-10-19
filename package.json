@@ -3,14 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev-cross": "cross-env NODE_OPTIONS='--inspect' next dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@prismicio/client": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "date-fns": "^2.25.0",
     "gray-matter": "^4.0.2",
     "next": "^11.0.0",
+    "next-routes": "^1.4.2",
+    "next-slicezone": "^0.1.2",
+    "prismic-dom": "^2.2.6",
+    "prismic-javascript": "^3.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.2"
   }
 }
